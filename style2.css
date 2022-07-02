@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pricing-section{
+    padding: 0 10rem;
+    margin-top: 9rem;
+    text-align: left;
+}
+
+.pricing-section h3{
+    color:#e67e22;
+    font: 1.6rem 'DM Sans';
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.pricing-section h2{
+    font: 4rem 'Montserrat Alternates';
+    font-weight: 700;
+}
+
+.pricing{
+    display:flex;
+    gap: 5rem;
+    margin-top: 4rem;
+    justify-content: center;
+}
+
+.pricing-tags{
+    height: 50rem;
+    width: 40rem;
+    background-color: #fff;
+    border-radius: 10px;
+    /* box-shadow: 20px 10px 60px rgba(51, 51, 51, 0.637); */
+    border: 1px solid rgba(235, 191, 165, 0.452);
+    padding:4rem 6rem;
+    text-align: center;
+}
+
+.pricing-tags h3{
+    font: 2rem 'DM Sans';
+    font-weight: 700;
+} 
+
+.pricing-tags h2{
+    font: 6.5rem 'Rubik';
+    font-weight:700;
+}
+
+.pricing-tags h2 span{
+    font: 3rem 'DM Sans';
+    margin-right:0.6rem;
+    font-weight:400;
+}
+
+.pricing-tags p{
+    font: 1.7rem 'DM Sans';
+    margin-top: 3rem;
+    margin-bottom: 0;
+}
+
+.pricing-tags ul{
+    /* margin-left: 2em; */
+    margin-top: 2rem;
+    margin-bottom: 4.6rem;
+}
+
+.pricing-tags ul li{
+    margin-bottom: 1.5rem;
+    font: 2rem 'DM Sans';
+}
+
+.pricing-tags a{
+    border-radius: 10px;
+    padding: 2rem 5rem;
+    background-color: #e67e22;
+    color: #fff;
+    font: 2rem 'DM Sans';
+    text-decoration: none;
+    margin-top: 3rem;
+}
+
+.child-background-change{
+    background-color: rgba(235, 191, 165, 0.144);
+    height: 50rem;
+    width: 40rem;
+    /* background-color: #fff; */
+    border-radius: 10px;
+    /* box-shadow: 20px 10px 60px rgba(51, 51, 51, 0.637); */
+    border: 1px solid transparent;
+    padding:4rem 6rem;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.best-value{
+    background-color: #ffd43b;
+    font: 1.6rem 'DM Sans';
+    transform: rotate(45deg);
+    display: flex;
+    width: 30rem;
+    justify-content: center;
+    /* margin-left: 10rem; */
+    position: absolute;
+    left: 18rem;
+    font-weight:600;
+    padding: 0.7rem;
+}
+
+.child-background-change h3{
+    font: 2rem 'DM Sans';
+    font-weight: 700;
+} 
+
+.child-background-change h2{
+    font: 6.5rem 'Rubik';
+    font-weight:700;
+}
+
+.child-background-change span{
+    font: 3rem 'DM Sans';
+    margin-right:0.6rem;
+    font-weight:400;
+}
+
+.child-background-change p{
+    font: 1.7rem 'DM Sans';
+    margin-top: 3rem;
+    margin-bottom: 0;
+}
+
+.child-background-change ul{
+    /* margin-left: 2em; */
+    margin-top: 2rem;
+    margin-bottom: 5.7rem;
+}
+
+.child-background-change ul li{
+    margin-bottom: 1.5rem;
+    font: 1.7rem 'DM Sans';
+}
+
+.child-background-change a{
+    border-radius: 10px;
+    padding: 2rem 5rem;
+    background-color: #e67e22;
+    color: #fff;
+    font: 2rem 'DM Sans';
+    text-decoration: none;
+    margin-top: 3rem;
+}
+
+.price-info{
+    font: 1.8rem 'DM Sans';
+    text-align:center;
+    margin-bottom: 5rem;
+}
+
+.price-information{
+    display: flex;
+    gap: 4rem;
+    justify-content: space-between;
+}
+
+.price-info-tags{
+    width: 24%;
+    height: 30rem;
+}
+
+.price-info-tags span{
+    border-radius: 50%;
+    background-color: #ebbfa5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:5rem;
+    width: 5rem;
+    margin-bottom: 4rem;
+}
+
+.price-info-tags span ion-icon{
+    font-size: 3rem;
+    color:#e67e22;
+}
+
+.price-info-tags h3{
+    font: 2.6rem 'DM Sans';
+    font-weight: 800;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.price-info-tags p{
+    font: 1.6rem 'DM Sans';
+    line-height: 1.6;
+}
+
+.call-to-action-section{
+    padding: 0 9rem;  
+}
+
+.cta{
+    background-image: linear-gradient(to right bottom, #e67e22, #e67e22);
+
+    display: grid;
+    grid-template-columns: 1.9fr 1.1fr;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 10px 30px 90px rgba(51, 51, 51, 0.473);
+}
+
+.cta-txt{
+    text-align: left;
+    padding: 5rem;
+    padding-right: 3rem;
+}
+
+.cta-txt h2{
+    font: 700 4.3rem 'Rubik';
+    color: #333;
+    margin-bottom: 3.5rem;
+}
+
+.cta-txt p{
+    font: 2rem 'DM Sans';
+    line-height: 1.8;
+    color: #333;
+}
+
+.label{
+    font: 500 2rem 'Rubik';
+    margin-bottom: 5rem;
+    color:#333;
+}
+
+.cta-txt form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+    column-gap: 1rem;
+    row-gap: 2rem;
+    margin-top: 2rem;
+}
+
+.cta-txt form span input{
+    width: 30rem;
+    height: 5rem;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font: 300 1.7rem 'Rubik';
+    padding-left: 2rem;
+}
+
+.cta-txt form span input:focus{
+    outline: 5.5px solid #ebbfa5;
+}   
+
+#select-where{
+    width: 30rem;
+    height: 5rem;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font: 300 1.7rem 'Rubik';
+    padding-left: 2rem;
+}
+
+.cta-txt form button{
+    width: 30rem;
+    height: 5rem;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font: 500 2rem 'Rubik';
+    padding-left: 2rem;
+    margin-top: 2rem;
+    background-color: rgba(51, 51, 51, 0.753);
+    color: #fff;
+    transition: all ease 1s;
+}
+
+.cta-txt form button:hover{
+    background-color: #fdf2e9;
+    color: #333;
+}
+
+.cta-txt form button:focus{
+    outline: 5.5px solid #ebbfa5;
+}  
+
+.cta-img img{
+    width: 100%;
+    height: 100%;
+    opacity: .7;
+}
+
+footer{
+    margin-top: 25rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 6rem;
+    /* justify-content: space-between; */
+    padding: 0 12rem;
+    margin-bottom: 10rem;
+}
+
+footer div{
+    text-align: left;
+    font: 1rem;
+}
+
+footer div img{
+    width: 16rem;
+    height: 3rem;
+    margin-bottom: 5rem;
+    margin-right: auto;
+}
+
+.icons{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 7rem;
+}
+
+.footer-icons{
+    font-size: 3rem;
+    margin-right: 1rem;
+    margin-left: 0;
+}
+
+.footer-text{
+    font-size: 1.3rem;
+    font-family: 'DM Sans';
+    line-height: 1.2;
+    margin-top: 5rem;
+    /* color: red; */
+}
+
+.footer-headings{
+    font: 700 1.8rem 'DM Sans';
+    margin-bottom: 3rem;
+}
+
+.footer-txt{
+    font: 500 1.5rem 'DM Sans';
+    margin-bottom: 3rem;
+}
+
+.footer-second-txt{
+    font: 400 1.4rem 'DM Sans'
+}
+
+.footer-list{
+    list-style: none;
+}
+
+.footer-list li{
+    font: 400 1.5rem 'DM Sans';
+    margin-bottom: 2rem;
+}
+
+.footer-list li:hover{
+    cursor: pointer;
+}
